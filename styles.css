@@ -1,0 +1,176 @@
+/* Custom styling for Multivariate Information Theory Tutorial */
+
+/* Make code blocks more readable */
+pre.sourceCode {
+  border-radius: 8px;
+  border: 1px solid #e1e4e8;
+  padding: 1em;
+  background-color: #f6f8fa;
+}
+
+/* Improve inline code appearance */
+code {
+  background-color: #f6f8fa;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+/* Style mathematical equations */
+.katex, .MathJax {
+  font-size: 1.1em;
+}
+
+/* Enhance callout boxes */
+.callout {
+  border-left-width: 4px;
+  border-radius: 6px;
+  margin: 1.5em 0;
+}
+
+.callout-note {
+  border-left-color: #0969da;
+}
+
+.callout-tip {
+  border-left-color: #1a7f37;
+}
+
+.callout-warning {
+  border-left-color: #bf8700;
+}
+
+.callout-important {
+  border-left-color: #d1242f;
+}
+
+/* Improve figure captions */
+figcaption {
+  font-style: italic;
+  color: #57606a;
+  margin-top: 0.5em;
+  text-align: center;
+}
+
+/* Style tables nicely */
+table {
+  border-collapse: collapse;
+  margin: 1.5em auto;
+  width: 100%;
+  max-width: 800px;
+}
+
+th {
+  background-color: #f6f8fa;
+  font-weight: 600;
+  padding: 0.75em;
+  border: 1px solid #d0d7de;
+}
+
+td {
+  padding: 0.75em;
+  border: 1px solid #d0d7de;
+}
+
+/* Improve notebook output styling */
+.cell-output-display {
+  margin: 1em 0;
+}
+
+/* Style code folding button */
+.code-fold {
+  margin: 0.5em 0;
+}
+
+/* Enhance section headers */
+h1, h2, h3 {
+  margin-top: 1.5em;
+  margin-bottom: 0.75em;
+}
+
+h1 {
+  border-bottom: 2px solid #d0d7de;
+  padding-bottom: 0.3em;
+}
+
+/* Improve link styling */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Style download buttons */
+.btn-download {
+  background-color: #0969da;
+  color: white;
+  padding: 0.5em 1em;
+  border-radius: 6px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0.5em 0;
+}
+
+.btn-download:hover {
+  background-color: #0860ca;
+  text-decoration: none;
+}
+
+/* Improve sidebar navigation */
+.sidebar-navigation {
+  position: sticky;
+  top: 0;
+}
+
+/* Style warning/error messages in code output */
+.stderr {
+  color: #cf222e;
+  background-color: #ffebe9;
+  padding: 0.5em;
+  border-radius: 6px;
+  margin: 0.5em 0;
+}
+
+/* Enhance blockquotes */
+blockquote {
+  border-left: 4px solid #d0d7de;
+  padding-left: 1em;
+  color: #57606a;
+  margin: 1.5em 0;
+}
+
+/* Style definition lists (for glossary-style content) */
+dt {
+  font-weight: 600;
+  margin-top: 1em;
+}
+
+dd {
+  margin-left: 2em;
+  margin-bottom: 1em;
+}
+
+/* Improve print styling for PDF */
+@media print {
+  .sidebar, .code-tools {
+    display: none;
+  }
+  
+  pre.sourceCode {
+    border: 1px solid #000;
+    page-break-inside: avoid;
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  body {
+    font-size: 0.9em;
+  }
+  
+  pre.sourceCode {
+    font-size: 0.8em;
+  }
+}
