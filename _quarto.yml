@@ -7,7 +7,7 @@ book:
   subtitle: "A Practical Tutorial with HOI, Frites, and XGI"
   author: "Giovanni Petri"
   date: today
-  repo-url: https://github.com/yourusername/multivariate-information-theory-tutorial
+  repo-url: https://github.com/lordgrilo/cnww-hoi
   repo-actions: [edit, issue]
   downloads: [pdf]
   sharing: [twitter, linkedin]
