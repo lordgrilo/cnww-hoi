@@ -87,8 +87,8 @@ Extensive plotting to build intuition for abstract information-theoretic concept
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/multivariate-information-theory-tutorial.git
-cd multivariate-information-theory-tutorial
+git clone https://github.com/lordgrilo/cnww-hoi.git
+cd cnww-hoi
 ```
 
 2. Install dependencies:
@@ -128,9 +128,9 @@ If you use these tutorials in your research or teaching, please cite:
 @misc{petri2024multivariate,
   author = {Petri, Giovanni},
   title = {Multivariate Information Theory: A Practical Tutorial},
-  year = {2024},
+  year = {2025},
   publisher = {GitHub},
-  url = {https://github.com/yourusername/multivariate-information-theory-tutorial}
+  url = {https://github.com/lordgrilo/cnww-hoi/}
 }
 ```
 

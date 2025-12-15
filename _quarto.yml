@@ -38,6 +38,7 @@ book:
 bibliography: references.bib
 csl: nature-neuroscience.csl
 
+
 format:
   html:
     theme: 
